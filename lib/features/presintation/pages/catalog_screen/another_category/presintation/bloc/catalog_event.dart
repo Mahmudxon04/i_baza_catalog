@@ -1,4 +1,4 @@
-part of 'katalog_bloc.dart';
+part of 'catalog_bloc.dart';
 
 sealed class ProductEvent {}
 

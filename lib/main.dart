@@ -4,7 +4,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:i_baza_catalog/core/adaptor/hive_type_adaptor.dart';
 import 'package:i_baza_catalog/core/data_base/objectBox.dart';
 import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/repository/repository.dart';
-import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/presintation/bloc/katalog_bloc.dart';
+import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/presintation/bloc/catalog_bloc.dart';
 import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/category/data/repository/category.dart';
 import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/category/presentation/bloc/category_bloc.dart';
 import 'package:i_baza_catalog/features/presintation/pages/login_screen/login_screen.dart';

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
+import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/katalog_model/model.dart';
 import '../../../../../../../assets/colors/color.dart';
 import '../../../../../../../assets/widgets/icons.dart';
-import '../../data/katalog_model/model.dart';
+
 
 
 class ProductItem extends StatelessWidget {

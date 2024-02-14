@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/presintation/bloc/katalog_bloc.dart';
+import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/presintation/bloc/catalog_bloc.dart';
 import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/presintation/widget/widget_catalog.dart';
 import '../../../../assets/colors/color.dart';
 import '../../../../assets/widgets/icons.dart';

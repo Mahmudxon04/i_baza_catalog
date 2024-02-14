@@ -1,17 +1,18 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
+import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/katalog_model/model.dart';
 import 'package:meta/meta.dart';
 import '../../../category/data/model/status.dart';
 import '../../data/repository/repository.dart';
 import 'package:flutter/foundation.dart';
-import '../../data/katalog_model/model.dart';
 
 
 
 
 
-part 'katalog_state.dart';
-part 'katalog_event.dart';
+
+part 'catalog_state.dart';
+part 'catalog_event.dart';
 
 class ProductBloc extends Bloc<ProductEvent, ProductState> {
   final ProductRepository _response;

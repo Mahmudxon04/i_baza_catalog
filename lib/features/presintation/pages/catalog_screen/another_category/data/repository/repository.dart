@@ -1,7 +1,9 @@
 
 
-import '../data_source/katalog_mock_data.dart';
-import '../katalog_model/model.dart';
+import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/katalog_model/model.dart';
+
+import '../data_source/catalog_mock_data.dart';
+
 
 class ProductRepository {
   Future<List<ProductModel>> getCategory()async {
