@@ -1,7 +1,7 @@
 
 
-import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/katalog_model/model.dart';
 
+import '../catalog_model/model.dart';
 import '../data_source/catalog_mock_data.dart';
 
 

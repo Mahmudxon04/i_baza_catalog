@@ -1,10 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/foundation.dart';
-import 'package:i_baza_catalog/features/presintation/pages/catalog_screen/another_category/data/katalog_model/model.dart';
-import 'package:meta/meta.dart';
 import '../../../category/data/model/status.dart';
+import '../../data/catalog_model/model.dart';
 import '../../data/repository/repository.dart';
-import 'package:flutter/foundation.dart';
 
 
 
