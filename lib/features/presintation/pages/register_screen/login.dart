@@ -21,7 +21,9 @@ class _RagScreenState extends State<Login> {
     _phoneController.dispose();
     _passwordController.dispose();
     super.dispose();
+    print("Yeah");
   }
+
   @override
   void initState() {
     super.initState();
@@ -29,7 +31,6 @@ class _RagScreenState extends State<Login> {
       setState(() {}); // Call setState to rebuild the widget with the new icon
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -40,13 +41,22 @@ class _RagScreenState extends State<Login> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 96),
-            Center(child: SvgPicture.asset('assets/icons/svg/login_screen_icon.svg')),
+            Center(
+                child:
+                    SvgPicture.asset('assets/icons/svg/login_screen_icon.svg')),
             const SizedBox(height: 48),
-            Text('Ro‘yxatdan o‘tish',style: TextStyle(fontSize: 28,fontWeight: FontWeight.w700)),
+            Text('Ro‘yxatdan o‘tish',
+                style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700)),
             const SizedBox(height: 4),
-            Text('Ma’lumotlarni kiriting',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500,color: Colors.grey.shade500,fontFamily: 'Rubik')),
+            Text('Ma’lumotlarni kiriting',
+                style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                    color: Colors.grey.shade500,
+                    fontFamily: 'Rubik')),
             const SizedBox(height: 22),
-            Text('F.I.Sh',style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500)),
+            Text('F.I.Sh',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
             const SizedBox(height: 8),
             TextField(
               controller: _phoneController,
@@ -58,9 +68,9 @@ class _RagScreenState extends State<Login> {
               ),
               keyboardType: TextInputType.text,
             ),
-
             SizedBox(height: 16),
-            Text('Telefon raqam',style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500)),
+            Text('Telefon raqam',
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
             const SizedBox(height: 8),
             TextField(
               controller: _passwordController,
@@ -79,19 +89,24 @@ class _RagScreenState extends State<Login> {
                 Navigator.of(context).push(
                   MaterialPageRoute(builder: (context) => Reset()),
                 );
-
               },
-              child:const Text('Davom etish',style: TextStyle(color: Colors.black)),
+              child: const Text('Davom etish',
+                  style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 primary: Colors.yellow,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                minimumSize: Size(double.infinity,48),
+                minimumSize: Size(double.infinity, 48),
               ),
             ),
             SizedBox(height: 189),
-            Center(child: Text('Ro‘yxatdan o‘tganmisiz?',style: TextStyle(fontSize: 16,fontWeight: FontWeight.w500,color: Colors.grey.shade500))),
+            Center(
+                child: Text('Ro‘yxatdan o‘tganmisiz?',
+                    style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.grey.shade500))),
             SizedBox(height: 14),
             ElevatedButton(
               onPressed: () {
@@ -99,13 +114,14 @@ class _RagScreenState extends State<Login> {
                   MaterialPageRoute(builder: (context) => LoginScreen()),
                 );
               },
-              child:const Text('Kirish',style: TextStyle(color: Colors.black)),
+              child:
+                  const Text('Kirish', style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
                 primary: Colors.yellow.shade100,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                minimumSize: Size(double.infinity,48),
+                minimumSize: Size(double.infinity, 48),
               ),
             ),
           ],
