@@ -125,7 +125,7 @@ class _LoginScreenState extends State<LoginScreen> {
               },
               child:const Text('Kirish',style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow,
+                backgroundColor: Colors.yellow,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -143,7 +143,7 @@ class _LoginScreenState extends State<LoginScreen> {
               },
               child:const Text('Ro‘yxatdan o‘tish',style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow.shade100,
+                backgroundColor: Colors.yellow.shade100,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),

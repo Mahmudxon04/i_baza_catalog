@@ -110,7 +110,7 @@ class _SignUpState extends State<SignUp> {
               },
               child:const Text('Ro‘yxatdan o‘tish',style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow,
+                backgroundColor: Colors.yellow,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),

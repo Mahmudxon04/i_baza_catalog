@@ -93,7 +93,7 @@ class _RagScreenState extends State<Login> {
               child: const Text('Davom etish',
                   style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow,
+                backgroundColor: Colors.yellow,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -117,7 +117,7 @@ class _RagScreenState extends State<Login> {
               child:
                   const Text('Kirish', style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow.shade100,
+                backgroundColor: Colors.yellow.shade100,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),

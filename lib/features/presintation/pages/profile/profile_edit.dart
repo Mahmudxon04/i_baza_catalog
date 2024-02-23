@@ -178,7 +178,7 @@ class _ProfileEditScreenState extends State<ProfileEditScreen> {
               },
               child: Text('Saqlash',style: TextStyle(color: Colors.black)),
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow,
+                backgroundColor: Colors.yellow,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
